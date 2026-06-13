@@ -34,7 +34,7 @@ PIN_FGA1_RED   = 27
 PIN_FGA1_GREEN = 10
 PIN_FGA2_RED   = 21
 PIN_FGA2_GREEN = 16
-PIN_TRIG       = 16
+PIN_TRIG       = 26
 PIN_ECHO       = 24
 
 # ── Fixed timings — DS-03 / RiLSA ZRA ─────────────────────────────────────────
