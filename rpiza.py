@@ -5,9 +5,9 @@ Compliant: StVO §37 · RiLSA 2015 · RPiZA SRS v3.0
 
 Pin map (BCM):
   FzA  R=5  Y=6  G=13
-  FgA1 R=27 G=22
+  FgA1 R=27 G=10
   FgA2 R=21 G=16
-  HC-SR04 TRIG=15 ECHO=17
+  HC-SR04 TRIG=26 ECHO=24
 """
 
 import os
@@ -31,11 +31,11 @@ PIN_FZA_RED    = 5
 PIN_FZA_YELLOW = 6
 PIN_FZA_GREEN  = 13
 PIN_FGA1_RED   = 27
-PIN_FGA1_GREEN = 22
+PIN_FGA1_GREEN = 10
 PIN_FGA2_RED   = 21
 PIN_FGA2_GREEN = 16
-PIN_TRIG       = 15
-PIN_ECHO       = 17
+PIN_TRIG       = 26
+PIN_ECHO       = 24
 
 # ── Fixed timings — DS-03 / RiLSA ZRA ─────────────────────────────────────────
 T_YELLOW    = 1.0   # FA-02: FzA Grün→Rot
